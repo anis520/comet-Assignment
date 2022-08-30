@@ -5,64 +5,64 @@
 
     {   
          "id"     :"1",
-        "img"     : "https://static-01.daraz.com.bd/p/622b4239e7c3f936d0329bdb2e9b68ed.jpg",
+        "img"     : "https://static-01.daraz.com.bd/p/6be49c7f0571c6f5853786aee1a370bd.jpg",
         "name"    : "burqa arab niqab",
         "price"   : "330"
 
     },    {   
         "id"     :"2",
        "img"     : "https://static-01.daraz.com.bd/p/6901a02f795e95919cc3b09cc7e70215.jpg",
-       "name"    : "burqa arab niqab",
+       "name"    : "cotton t-shart",
        "price"   : "330"
 
    },
    {   
     "id"     :"3",
-   "img"     : "https://static-01.daraz.com.bd/p/622b4239e7c3f936d0329bdb2e9b68ed.jpg",
-   "name"    : "burqa arab niqab",
-   "price"   : "330"
+   "img"     : "https://static-01.daraz.com.bd/p/d4bb7bf46d10cdcc469aae155c8dff26.jpg",
+   "name"    : "T-shari",
+   "price"   : "200"
 
    },
    {   
     "id"     :"4",
-   "img"     : "https://static-01.daraz.com.bd/p/6be49c7f0571c6f5853786aee1a370bd.jpg",
+   "img"     : "https://static-01.daraz.com.bd/p/5ecc953473f48ec71e7c8ff3795dc4cf.jpg",
    "name"    : " Muslim Cotton",
    "price"   : "120"
 
    },
    {   
     "id"     :"5",
-   "img"     : "https://static-01.daraz.com.bd/p/622b4239e7c3f936d0329bdb2e9b68ed.jpg",
-   "name"    : "burqa arab niqab",
-   "price"   : "330"
+   "img"     : "https://static-01.daraz.com.bd/p/6f1e110c7ab10c8d8ad26e809c9253a9.jpg",
+   "name"    : "Dubai Cherry 3",
+   "price"   : "550"
 
    },
    {   
     "id"     :"6",
-   "img"     : "https://static-01.daraz.com.bd/p/622b4239e7c3f936d0329bdb2e9b68ed.jpg",
-   "name"    : "burqa arab niqab",
-   "price"   : "330"
+   "img"     : "https://static-01.daraz.com.bd/p/a8b8c0b54da8419f6efa7ebf60840e1a.jpg",
+   "name"    : "specail Panjabi",
+   "price"   : "400"
 
    },
    {   
     "id"     :"7",
-   "img"     : "https://static-01.daraz.com.bd/p/622b4239e7c3f936d0329bdb2e9b68ed.jpg",
-   "name"    : "burqa arab niqab",
+   "img"     : "https://static-01.daraz.com.bd/p/f0128ee8f2babd33a000566d3198daf3.jpg",
+   "name"    : "arab niqab",
    "price"   : "330"
 
    },
    {   
     "id"     :"8",
-   "img"     : "https://static-01.daraz.com.bd/p/622b4239e7c3f936d0329bdb2e9b68ed.jpg",
-   "name"    : "burqa arab niqab",
-   "price"   : "330"
+   "img"     : "https://static-01.daraz.com.bd/p/68ea9747055ce02f44658d45be136020.jpg",
+   "name"    : "Arabic dress",
+   "price"   : "700"
 
    },
    {   
     "id"     :"9",
-   "img"     : "https://static-01.daraz.com.bd/p/0e5ba7f042c4479bf61ac7a5b58422e2.jpg",
-   "name"    : "Borka for women",
-   "price"   : "330"
+   "img"     : "https://static-01.daraz.com.bd/p/4770de18699060abc0eccea64cd1e453.jpg",
+   "name"    : "cotton dress",
+   "price"   : "600"
 
    } 
 

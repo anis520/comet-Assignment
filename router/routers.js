@@ -36,6 +36,32 @@ res.render('shop',{
 
 
 })
+router.get('/shop-single/:id',(req,res)=>{
+
+    const data=JSON.parse(readFileSync(path.join(__dirname,'../db/data4.json')))
+
+     const single_post=data.find(data=> data.id == req.params.id )
+  
+
+res.render('shop-single',{
+    
+    data: single_post
+
+
+}) 
+
+
+})
+router.get('/shop_man',(req,res)=>{
+
+   res.render('shop_man')
+
+})
+router.get('/shop_woman',(req,res)=>{
+
+   res.render('shop_woman')
+
+})
 
 
 

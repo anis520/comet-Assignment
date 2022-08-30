@@ -2,7 +2,7 @@
 <html lang="en">
 
   
-<!-- Mirrored from themes.hody.co/html/comet/shop-3col.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Jan 2017 09:50:52 GMT -->
+<!-- Mirrored from themes.hody.co/html/comet/shop-2col.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Jan 2017 09:50:21 GMT -->
 <head>
     <title>Comet | Creative Multi-Purpose HTML Template</title>
     <meta charset="UTF-8">
@@ -476,14 +476,11 @@
 
 
 
-                  <li><a href="#">Man</a>
+                  <li><a href="/shop_man">man</a>
                   </li>
-                  <li><a href="#">Woman</a>
+                  <li><a href="/shop_woman">woman</a>
                   </li>
-
-
-
-               
+                  
 
 
 
@@ -493,43 +490,27 @@
               <div class="widget">
                 <h6 class="upper">Trending Products</h6>
                 <ul class="nav product-list">
-                  
-                  
-            <% if (data4.price>500) { %>
-                   
-                           
-                  <% data4.forEach(data4 => { %>
-                      
-                        <li>
-                                <div class="product-thumbnail">
-                                    <img src="<%=data4.img  %> " alt="">
-                                </div>
-                                <div class="product-summary"><a href="#"><%=data4.name %> </a><span><%=data4.price %> </span>
-                                </div>
-                           </li>
-                      
-                      <% }) %>
-
-             <% }else{%>
-                          
-                     <li>comming soon</li>
-
-             <% } %> 
-
-
-
-                 
-                 
-
-
-
-
-
-
-
-
-
-
+                  <li>
+                    <div class="product-thumbnail">
+                      <img src="images/shop/2.jpg" alt="">
+                    </div>
+                    <div class="product-summary"><a href="#">Premium Suit Blazer</a><span>$199.99</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="product-thumbnail">
+                      <img src="images/shop/3.jpg" alt="">
+                    </div>
+                    <div class="product-summary"><a href="#">Vintage Sweatshirt</a><span>$199.99</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="product-thumbnail">
+                      <img src="images/shop/5.jpg" alt="">
+                    </div>
+                    <div class="product-summary"><a href="#">Reiss Vara Blazer</a><span>$199.99</span>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <!-- end of widget          -->
@@ -570,41 +551,103 @@
             </div>
             <div class="container-fluid">
               <div class="row">
-
-
-
-              <% data4.forEach(element => { %>
-               
-
-             <div class="col-md-4 col-sm-6">
+                <div class="col-sm-6">
                   <div class="shop-product">
                     <div class="product-thumb">
-                      <a href="/shop-single/<%=element.id%>">
-                        <img src="<%= element.img %> " alt="">
+                      <a href="#">
+                        <img src="images/shop/1.jpg" alt="">
                       </a>
-                      <div class="product-overlay"><a href="/shop-single/<%=element.id%> " class="btn btn-color-out btn-sm">Add To Cart<i class="ti-bag"></i></a>
+                      <div class="product-overlay"><a href="#" class="btn btn-color-out btn-sm">Add To Cart<i class="ti-bag"></i></a>
                       </div>
                     </div>
                     <div class="product-info">
-                      <h4 class="upper"><a href="/shop-single/<%=element.id%> "><%= element.name %> </a></h4><span><%= element.price %> </span><span>TK</span>
-                      <div class="save-product"><a href="/shop-single/<%=element.id%> "><i class="icon-heart"></i></a>
+                      <h4 class="upper"><a href="#">Premium Notch Blazer in Longline</a></h4><span>$79.99</span>
+                      <div class="save-product"><a href="#"><i class="icon-heart"></i></a>
                       </div>
                     </div>
                   </div>
                 </div>
-
-
-
-
-              <% }) %>
-
-
-              
-
-
-
-
-
+                <div class="col-sm-6">
+                  <div class="shop-product">
+                    <div class="product-thumb">
+                      <a href="#">
+                        <img src="images/shop/2.jpg" alt="">
+                      </a>
+                      <div class="product-overlay"><a href="#" class="btn btn-color-out btn-sm">Add To Cart<i class="ti-bag"></i></a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h4 class="upper"><a href="#">Premium Suit Blazer with Collar Detail</a></h4><span>$199.99</span>
+                      <div class="save-product"><a href="#"><i class="icon-heart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="shop-product">
+                    <div class="product-thumb">
+                      <a href="#">
+                        <img src="images/shop/3.jpg" alt="">
+                      </a>
+                      <div class="product-overlay"><a href="#" class="btn btn-color-out btn-sm">Add To Cart<i class="ti-bag"></i></a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h4 class="upper"><a href="#">Vintage Sweatshirt With Lace Detail</a></h4><span>$99.99</span>
+                      <div class="save-product"><a href="#"><i class="icon-heart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="shop-product">
+                    <div class="product-thumb">
+                      <a href="#">
+                        <img src="images/shop/4.jpg" alt="">
+                      </a>
+                      <div class="product-overlay"><a href="#" class="btn btn-color-out btn-sm">Add To Cart<i class="ti-bag"></i></a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h4 class="upper"><a href="#">Longline Lightweight Jersey Biker Jacket</a></h4><span>$19.99</span>
+                      <div class="save-product"><a href="#"><i class="icon-heart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="shop-product">
+                    <div class="product-thumb">
+                      <a href="#">
+                        <img src="images/shop/5.jpg" alt="">
+                      </a>
+                      <div class="product-overlay"><a href="#" class="btn btn-color-out btn-sm">Add To Cart<i class="ti-bag"></i></a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h4 class="upper"><a href="#">Reiss Vara Tailored Blazer</a></h4><span>$119.99</span>
+                      <div class="save-product"><a href="#"><i class="icon-heart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="shop-product">
+                    <div class="product-thumb">
+                      <a href="#">
+                        <img src="images/shop/6.jpg" alt="">
+                      </a>
+                      <div class="product-overlay"><a href="#" class="btn btn-color-out btn-sm">Add To Cart<i class="ti-bag"></i></a>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h4 class="upper"><a href="#">Double Breasted Overcoat In Camel</a></h4><span>$99.99</span>
+                      <div class="save-product"><a href="#"><i class="icon-heart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- end of row-->
               <ul class="pagination">
                 <li><a href="#" aria-label="Previous"><span aria-hidden="true"><i class="ti-arrow-left"></i></span></a>
@@ -626,6 +669,7 @@
             </div>
           </div>
         </div>
+        <!-- end of row-->
       </div>
       <!-- end of container-->
     </section>
@@ -772,5 +816,5 @@
   </body>
 
 
-<!-- Mirrored from themes.hody.co/html/comet/shop-3col.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Jan 2017 09:51:09 GMT -->
+<!-- Mirrored from themes.hody.co/html/comet/shop-2col.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Jan 2017 09:50:52 GMT -->
 </html>
